@@ -24,7 +24,7 @@ library(mclust)
 #######################################################################
 
 #######
-n_iter = 200     #NUMBER OF ITERATION
+n_iter = 100     #NUMBER OF ITERATION
 nch = 20
 ricrout = 0;rimsout = 0;riwdout = 0;ritvout = 0;ritrout = 0
 ricrout2 = 0;rimsout2 = 0;riwdout2 = 0;ritvout2 = 0;ritrout2 = 0
