@@ -1,6 +1,6 @@
 This paper proposes two novel distance measures, called functional Ward's linkages, for functional data clustering that are robust against outliers. Conventional Ward’s linkage defines the distance between two clusters as the increase in sum of squared errors (SSE) upon merging, which can be interpreted graphically as an increase in cluster diameter. Analogously, functional Ward’s linkage defines the distance between two clusters as the increase in the width of the band after merging them. To address the limitations of conventional Ward's linkage in handling outliers, the proposed linkages focus exclusively on the most central curves by leveraging magnitude-shape outlyingness measure and modified band depth, respectively. Simulations and real-world electroencephalogram (EEG) data analysis demonstrate that the proposed methods outperform other competitive approaches, particularly in the presence of various types of outliers.
 
 One can run the code and reproduce the results in the simulation.
-"fn.r" contains code of the linkages and clustering algorithms, and "simu.r" contains code of simulations. Note that to run the code, you need a valid gurobi account, visit https://www.gurobi.com/ for details.
+"fn.r" contains code of the linkages and clustering algorithms, "simu.r" contains code of simulations, and 'eeg2.r' contains code of EEG data applications. Note that to run the code, you need a valid gurobi account, visit https://www.gurobi.com/ for details.
 For further inqueries, please contact Tianbo Chen (chentianbo@ahu.edu.cn)
 
