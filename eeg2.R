@@ -1,4 +1,4 @@
-source('GCVsmoothing.R')
+source('fn.R')
 library(fda)
 library(fields)
 library(clusteval)
