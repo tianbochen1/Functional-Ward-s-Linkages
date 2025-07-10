@@ -30,7 +30,7 @@ ricrout = 0;rimsout = 0;riwdout = 0;ritvout = 0;ritrout = 0
 ricrout2 = 0;rimsout2 = 0;riwdout2 = 0;ritvout2 = 0;ritrout2 = 0
 set.seed(0)
 tau = 0.5                     #RATIO OF CENTRAL CURVES
-nc = 4                        #NUMBER OF CLUSTER
+nc = 4                        #NUMBER OF CLUSTERS
 rate = 0.1                    #OUTLIER RATE, can be 0.1, 0.15, and 0.2
 for(k in 1:n_iter){ 
   sim = generatesim2(type=1, T=200, rate=rate)    # reproduce experiment 2, comment this line
