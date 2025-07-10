@@ -22,7 +22,7 @@ library(mclust)
 library(factoextra)
 
 
-load('pgshort2.rdata')
+load('pgshort2.rdata')   #download thae data (smoothed periodogram, one can also use the original data in Andrzejak et al. (2001).) 
 rescr_ari1 = 0;resms_ari1 = 0;rescr_sim1 = 0;resms_sim1 = 0
 rescr_ari2 = 0;resms_ari2 = 0;rescr_sim2 = 0;resms_sim2 = 0
 rescr_ari3 = 0;resms_ari3 = 0;rescr_sim3 = 0;resms_sim3 = 0
