@@ -34,7 +34,9 @@ nc = 4                        #NUMBER OF CLUSTER
 rate = 0.1                    #OUTLIER RATE, can be 0.1, 0.15, and 0.2
 for(k in 1:n_iter){ 
   sim = generatesim2(type=1, T=200, rate=rate)    # reproduce experiment 2, comment this line
-  #sim=generatesim(type=1, T=100, rate=rate)      # reproduce experiment 1, comment this line
+  #sim=generatesim(type=1, T=100, rate=rate)      # reproduce experiment 1 model 1 and 2, uncomment this line
+  #sim=generatesim3(type=1, T=100, rate=rate)      # reproduce experiment 1 model 3 and 4, uncomment this line
+
   resultcr = robustcluster(sim,nc,'cr',tau=tau)$res
   resultms = robustcluster(sim,nc,'ms',tau=tau)$res
   resultwd = robustcluster(sim,nc,'ward',tau=tau)$res
